@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Protest Revolution', sans-serif;;
+    font-weight: normal;
+}
+
+body, input, textarea, footer {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #000000;
+    color:#ff0000;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #ff0000;
+}
+
+section {
+    color: #000000;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.fotos-jogo img {
+    margin-right: 32px;
+    height: 210px;
+}
+
+
+.social-links img {
+    height: 24px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+input {
+    background-color: #cecece;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+    background-color: #cecece;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #000000;
+    color: #ff0000;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: #504f4f;
+}
+
+input:focus, textarea:focus {
+    outline-color: #ff0000;
+}
+
+footer {
+    background-color: #000000;
+    color: #ff0000;
+    padding: 16px 0;
+    font-size: 14px;
+}
+
+section h3 {
+    color: #ff0000;
+}
+
+body {
+    background-color: #979797;
+}
+
+.fotos-jogo{
+    width: 400px;
+    display: table-column;
+    list-style: none;
+}
